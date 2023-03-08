@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Enter Name" required />
+      <br />
+      <input type="email" placeholder="Enter Email" required />
+      <br />
+      <hr />
+      <input type="password" placeholder="Enter Password" required />
+      <hr />
+
+      <label for="">
+        Enter Month
+        <input type="month" />
+      </label>
+
+      <hr />
+      <input type="file" placeholder="Enter Password" required />
+
+      <hr />
+
+      <input
+        type="number"
+        min="18"
+        max="30"
+        placeholder="Enter your age"
+        required
+      />
+
+      <hr />
+
+      <select>
+        <option value="select" disabled selected>
+          Please select your role
+        </option>
+        <option value="user">I am user</option>
+        <option value="admin">I am Admin</option>
+        <option value="teacher">I am Teacher</option>
+      </select>
+      <hr />
+
+      <input type="radio" id="male" name="genderSelect" required />
+      <label for="male">I am Male</label>
+      <br />
+      <input type="radio" id="female" name="genderSelect" required />
+      <label for="female">I am female</label>
+      <br />
+      <hr />
+
+      <input type="checkbox" id="cricket" name="gameselect" />
+      <label for="cricket">Cricket</label>
+      <br />
+      <input type="checkbox" id="football" name="gameselect" />
+      <label for="football">Football</label>
+      <br />
+      <input type="checkbox" id="vb" name="gameselect" />
+      <label for="vb">Volleyball</label>
+      <br />
+      <input type="checkbox" id="bb" name="gameselect" />
+      <label for="bb">Basketball</label>
+      <br />
+      <hr />
+      <textarea
+        placeholder="Enter sth in Detail"
+        rows="5"
+        style="width: 100%"
+      ></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    <!-- <table border="1" width="100%">
+      <thead>
+        <tr>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Link1</td>
+          <td>Link2</td>
+          <td>Link3</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table> -->
+  </body>
+</html>
