@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .css-block.chapter-one {
+        background-color: red;
+      }
+
+      .css-block {
+        background-color: green;
+      }
+
+      .chapter-two {
+        background-color: aqua;
+      }
+      .html-block {
+        background-color: purple;
+      }
+
+      div {
+        background-color: orange;
+      }
+
+      #js {
+        background-color: black;
+        color: white;
+      }
+
+      .js-block {
+        background-color: yellow;
+        color: white;
+      }
+
+      header {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        /* padding: 100px 30px 60px; */
+        /* top, left/right, bottom */
+        /* padding: 100px; => from all sides */
+        /* padding: 100px 40px; => top/bottom , left/right */
+        /* padding: 10px 20px 30px 40px; */
+        /* top,  */
+      }
+      header.myheader {
+        display: block;
+        padding: 20px;
+      }
+    </style>
+    <title>Selectors</title>
+  </head>
+  <body>
+    <header class="myheader">This is Header</header>
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <hr />
+    <div class="css-block chapter-one">
+      <h3>Welcome to CSS</h3>
+      <p>
+        Css is a tool Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Harum ducimus non corporis nisi unde excepturi dicta eum neque,
+        necessitatibus delectus tempore, quidem vero? Velit consectetur sit modi
+        accusamus, nulla dicta?
+      </p>
+      <button>Read More</button>
+    </div>
+
+    <div class="html-block chapter-two" style="background-color: black">
+      <h3>Welcome to HTML</h3>
+      <p>
+        Css is a tool Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Harum ducimus non corporis nisi unde excepturi dicta eum neque,
+        necessitatibus delectus tempore, quidem vero? Velit consectetur sit modi
+        accusamus, nulla dicta?
+      </p>
+      <button>Read More</button>
+    </div>
+
+    <div class="js-block chapter-three" id="js">
+      <h3>Welcome to Js</h3>
+      <p>
+        Css is a tool Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Harum ducimus non corporis nisi unde excepturi dicta eum neque,
+        necessitatibus delectus tempore, quidem vero? Velit consectetur sit modi
+        accusamus, nulla dicta?
+      </p>
+      <button>Read More</button>
+    </div>
+  </body>
+</html>
